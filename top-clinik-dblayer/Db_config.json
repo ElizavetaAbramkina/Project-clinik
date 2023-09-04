@@ -1,0 +1,3 @@
+{
+  "Clinik_ConnectionString": "Server=.\\SQLEXPRESS;Database=Clinik; User Id=user; Password=1111;TrustServerCertificate=True;"
+}

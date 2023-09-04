@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "progect-clinik-server", "progect-clinik-server\progect-clinik-server.csproj", "{719615B8-04A6-4147-A292-491E640D7BB5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "progect-clinik-models", "progect-clinik-models\progect-clinik-models.csproj", "{1595178E-75D8-4A51-831B-8BD067B45F38}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "top-clinik-dblayer", "top-clinik-dblayer\top-clinik-dblayer.csproj", "{A9F5F80C-CFA7-490D-9261-34A9AEB8A706}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server", "Server", "{37F6CA94-8CB4-4D50-8B5C-4C8982ACE5FD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{57349780-268C-42E4-A515-B43A6E12EBD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "progect-clinik-wpfclient", "progect-clinik-wpfclient\progect-clinik-wpfclient.csproj", "{87DC50C2-218A-4C63-81DF-D444098526E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{719615B8-04A6-4147-A292-491E640D7BB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{719615B8-04A6-4147-A292-491E640D7BB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{719615B8-04A6-4147-A292-491E640D7BB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{719615B8-04A6-4147-A292-491E640D7BB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1595178E-75D8-4A51-831B-8BD067B45F38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1595178E-75D8-4A51-831B-8BD067B45F38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1595178E-75D8-4A51-831B-8BD067B45F38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1595178E-75D8-4A51-831B-8BD067B45F38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9F5F80C-CFA7-490D-9261-34A9AEB8A706}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9F5F80C-CFA7-490D-9261-34A9AEB8A706}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9F5F80C-CFA7-490D-9261-34A9AEB8A706}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9F5F80C-CFA7-490D-9261-34A9AEB8A706}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87DC50C2-218A-4C63-81DF-D444098526E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87DC50C2-218A-4C63-81DF-D444098526E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87DC50C2-218A-4C63-81DF-D444098526E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87DC50C2-218A-4C63-81DF-D444098526E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{719615B8-04A6-4147-A292-491E640D7BB5} = {37F6CA94-8CB4-4D50-8B5C-4C8982ACE5FD}
+		{A9F5F80C-CFA7-490D-9261-34A9AEB8A706} = {37F6CA94-8CB4-4D50-8B5C-4C8982ACE5FD}
+		{87DC50C2-218A-4C63-81DF-D444098526E8} = {57349780-268C-42E4-A515-B43A6E12EBD5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B67831BC-75BF-49A1-8414-12BE7D26C02F}
+	EndGlobalSection
+EndGlobal
